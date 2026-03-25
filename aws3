@@ -9,3 +9,37 @@ word1 = "madam"
 word2 = "hello"
 print(f"'{word1}' is a palindrome: {is_palindrome(word1)}")
 print(f"'{word2}' is a palindrome: {is_palindrome(word2)}")
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+</head>
+<body>
+
+    <h1>This is a Heading</h1>
+    <p>This is a paragraph.</p>
+
+</body>
+</html>
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Hello, World!");
+    }
+}
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+function App() {
+  return (
+    <div>
+      <h1>Hello, world!</h1>
+    </div>
+  );
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
